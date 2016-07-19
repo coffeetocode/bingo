@@ -262,7 +262,9 @@ function make_card()
         
         }
     }
-    $('.chip .card-text').hide();
+    //$('.chip .card-text').hide();
+    // changed to show text on marked cells when shared 
+    $('.chip .card-text').show();
     update_bingo();
 
 
